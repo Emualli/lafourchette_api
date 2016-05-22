@@ -5,9 +5,10 @@ gem 'rails', '4.2.6'
 gem 'puma'
 gem 'pg'
 gem 'figaro'
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder'
 gem 'devise'
 gem 'redis'
+gem 'json'
 
 gem 'sass-rails'
 gem 'jquery-rails'
@@ -24,8 +25,9 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
-  
-  
+  gem 'pundit'
+
+
 end
 
 group :production do
